@@ -12,7 +12,7 @@ This is a simple Currency Converter module built on Javascript, jQuery, CSS and 
   - jFactSetLanguages.js
   -	jFactSetRatesInput.js
   -	jquery-3.4.1.min.js
-+	css
++ css
   - styleFSCurrencyConverter.css
   - styleFSCurrencyConverter.min.css
   - styleMain.css
@@ -43,7 +43,7 @@ styleMain.css: This file provides brief and basic styling for the landing/home p
   
   1. Download/Clone the Package.
   2. Decompress if needed.
-  3. Open the: index.html in any browser
+  3. Open the: index.html in any browser.
 
 
 # How to Customize:
