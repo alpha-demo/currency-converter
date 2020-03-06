@@ -59,3 +59,9 @@ styleMain.css: This file provides brief and basic styling for the landing/home p
     a. FactSetCurrencyConverter(0, 1) [White and Blue Style]
     b. FactSetCurrencyConverter(0, 2) [Black & Red Style]
     c. FactSetCurrencyConverter(0, 3) [Green Style]
+
+Gulp [https://gulpjs.com] was used to Minify and Concatenate the the JavaScript and CSS files.
+
+Please, feel free to modify and extend the original source code, as well to add Currency Rates and Language Translations.
+
+Note: This Currency Converter Module was built from a technical test question. 	
