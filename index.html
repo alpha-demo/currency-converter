@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es-es" dir="ltr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/styleMain.css">
+    <title>FactSet Currency Converter [Test]</title>
+
+    <!-- FactSet Currency Converter Styles + ini  -->
+    <link rel="stylesheet" type="text/css" href="css/styleFSCurrencyConverter.min.css">
+    <!-- FactSet Currency Converter Styles - fin  -->
+
+</head>
+<body>
+<div id="divMain">
+    <!-- FactSet Currency Converter Div + ini -->
+    <div id="divMyCurrencyConverter" class="clsStyleOption1"></div>
+    <!-- FactSet Currency Converter Div + fin -->
+</div>
+</body>
+
+<!-- FACTSET Currency Converter Javascript + ini - -->
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/jFactSetCurrencyConverter.min.js"></script>
+<script type="text/javascript">
+    /*
+
+     Just choose your language and favorite style:
+
+     let MyCurrencyConverter = new FactSetCurrencyConverter(Language, Style);
+
+     User defined parameters, both parameters are optional:
+
+     Language:
+     0 -> "es-ES" Spanish from Spain // By default
+     1 -> "en-US" English de United States
+
+     Style:
+     1 -> White and Blue Style
+     2 -> Black & Red Style
+     3 -> Green Style // By default:
+
+     Examples of integration:
+     let MyCurrencyConverter = new FactSetCurrencyConverter(); // By default parameters
+     let MyCurrencyConverter = new FactSetCurrencyConverter(1); // In English "en-US"
+     let MyCurrencyConverter = new FactSetCurrencyConverter(0, 2); // In Spanish "es-ES" and Black & Red Style
+
+     */
+
+    let MyCurrencyConverter = new FactSetCurrencyConverter(1);
+    MyCurrencyConverter.mthGenerateHtmlForm("divMyCurrencyConverter");
+
+</script>
+<!-- FACTSET Currency Converter Javascript + fin - -->
+
+</html>

@@ -1,0 +1,227 @@
+/**
+ * Styles available for FACTSET Currency Converter
+ *
+ * @author    Alejandro D. Bakker
+ * @version   1.0.
+ * @copyright 2020 Alejandro D. Bakker
+ *
+ */
+
+
+/* -------  + Style of FactSet Currency Converter + Ini  ------- */
+
+.clsFSCurrencyConverterStyle {
+    display: none; /* it is initially hidden */
+}
+
+/* Style Option 1 + ini */
+
+.clsStyleOption1 {
+    width:          100%;
+    margin:         auto;
+    padding-top:    25px;
+    padding-bottom: 25px;
+    text-align:     center;
+    border:         1px solid silver;
+    border-radius:  21px;
+    font-family:    "Akkurat Pro", Arial, Helvetica, sans-serif;
+}
+
+.clsStyleOption1 h3 {
+    font-weight: bold;
+    color:       #00aeef;
+}
+
+.clsStyleOption1 table {
+    margin:  auto;
+    padding: 10px;
+}
+
+.clsStyleOption1 td {
+    padding-right:  15px;
+    padding-left:   15px;
+    padding-bottom: 15px;
+}
+
+.clsStyleOption1 input {
+    transition:    box-shadow .3s;
+    padding-left:  10px;
+    padding-right: 10px;
+    height:        33px;
+    border-radius: 3px;
+    border:        1px solid #00aeef;
+}
+
+.clsStyleOption1 input:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
+.clsStyleOption1 select {
+    transition:    box-shadow .3s;
+    height:        33px;
+    border-radius: 3px;
+    border:        1px solid #00aeef;
+}
+
+.clsStyleOption1 select:hover, input:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
+.clsStyleOption1 #divResult {
+    max-width:  100%;
+    overflow:   auto;
+    margin:     auto;
+    text-align: center;
+    font-size:  0.85em;
+}
+
+/* Style Option 1 - fin */
+
+
+/* Style Option 2 + ini */
+
+.clsStyleOption2 {
+    width:         250px;
+    margin:        auto;
+    padding:       7px;
+    text-align:    center;
+    border:        1px solid black;
+    border-radius: 0;
+    font-family:   "Lucida Console", Monaco, monospace
+}
+
+.clsStyleOption2 h3 {
+    font-size:   15px;
+    font-weight: bold;
+    color:       black;
+}
+
+.clsStyleOption2 p {
+    font-size: 12px;
+    color:     darkred;
+}
+
+.clsStyleOption2 table {
+    margin:  auto;
+    padding: 5px;
+}
+
+.clsStyleOption2 td {
+    padding: 5px;
+}
+
+.clsStyleOption2 input {
+    width:      55px;
+    height:     25px;
+    transition: box-shadow .3s;
+    border:     1px solid black;
+}
+
+.clsStyleOption2 input:hover {
+    border: 2px solid darkred;
+}
+
+.clsStyleOption2 select {
+    transition: box-shadow .3s;
+    height:     25px;
+    border:     1px solid black;
+}
+
+.clsStyleOption2 select:hover {
+    border: 2px solid darkred;
+}
+
+.clsStyleOption2 #divResult {
+    max-width:  70px;
+    overflow:   auto;
+    margin:     auto;
+    text-align: center;
+    font-size:  0.85em;
+}
+
+/* Style Option 2 - fin */
+
+
+/* Style Option 3 + ini */
+
+.clsStyleOption3 {
+    width:            70%;
+    max-width:        100%;
+    margin:           auto;
+    padding:          30px;
+    border:           3px solid white;
+    text-align:       right;
+    font-size:        1.15em;
+    font-weight:      bolder;
+    color:            white;
+    background-color: limegreen;
+    border-radius:    0;
+    font-family:      "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.clsStyleOption3 h3 {
+    font-size:   1.75em;
+    font-weight: bold;
+    color:       black;
+}
+
+.clsStyleOption3 p {
+    font-size: 0.9em;
+}
+
+.clsStyleOption3 table {
+    margin-right: 0;
+    padding:      0;
+}
+
+.clsStyleOption3 td {
+    padding: 10px 0 10px 20px;
+}
+
+.clsStyleOption3 input {
+    transition:       box-shadow .3s;
+    width:            75px;
+    height:           35px;
+    padding-left:     15px;
+    background-color: #F0F0F0;
+    border:           2px solid white;
+    border-radius:    7px;
+}
+
+.clsStyleOption3 input:hover {
+    color:            white;
+    background-color: limegreen;
+    font-size:        0.85em;
+    font-weight:      bold;
+    border:           3px dashed yellow;
+}
+
+.clsStyleOption3 select {
+    transition:       box-shadow .3s;
+    width:            195px;
+    height:           45px;
+    padding-left:     15px;
+    background-color: #F0F0F0;
+    border:           2px solid white;
+    border-radius:    7px;
+}
+
+.clsStyleOption3 select:hover {
+    color:            white;
+    background-color: limegreen;
+    font-size:        0.80em;
+    font-weight:      bold;
+    border:           3px dashed yellow;
+}
+
+.clsStyleOption3 #divResult {
+    max-width:  100%;
+    overflow:   auto;
+    margin:     auto;
+    text-align: center;
+    font-size:  0.85em;
+}
+
+/* Style Option 3 - fin */
+
+/* -------  + Style of FactSet Currency Converter - Fin  ------- */

@@ -1,0 +1,19 @@
+/**
+ * Style of the unique intro html page for FACTSET Currency Converter
+ *
+ * @author    Alejandro D. Bakker
+ * @version   1.0.
+ * @copyright 2020 Alejandro D. Bakker
+ *
+ */
+
+/* -------  + Style of FactSet Currency Converter Home Page + Ini  ------- */
+
+#divMain {
+    width:      50%;
+    margin:     70px auto 70px auto;
+    padding:    35px;
+    text-align: center;
+}
+
+/* -------  + Style of FactSet Currency Converter Home Page - Fin  ------- */
