@@ -47,7 +47,9 @@ styleMain.css: This file provides brief and basic styling for the landing/home p
 
 
 # How to Customize:
-  1.	With a Text Editor or Code Editor Application open the file index.html
+  1.	With a Text Editor or Code Editor Application open the file:
+      
+    index.html
   
   2.	To set the Language, change the first parameter of the method: FactSetCurrencyConverter:
   
@@ -59,9 +61,22 @@ styleMain.css: This file provides brief and basic styling for the landing/home p
     a. FactSetCurrencyConverter(0, 1) [White and Blue Style]
     b. FactSetCurrencyConverter(0, 2) [Black & Red Style]
     c. FactSetCurrencyConverter(0, 3) [Green Style]
+    
+  4.	To customize Rates, edit/add the Rates at jFactSetRatesInput.js or provide a valid stringified Json Object as third parameter, for example:
+    
+    let MyCurrencyConverter = new FactSetCurrencyConverter(0, 2, JsonObjectWithRates);
+    
+  5.	To customize Language Translations, edit/add the Text Translations at jFactSetLanguages.js or provide a valid stringified Json Object as fourth parameter, for example:
+    
+    let MyCurrencyConverter = new FactSetCurrencyConverter(
+        0,
+        2,
+        JsonObjectWithRates,
+        JsonObjectWithLanguageTranslations
+     );    
 
-Gulp [https://gulpjs.com] was used to Minify and Concatenate the the JavaScript and CSS files.
+Gulp [https://gulpjs.com] was used to Minify JavaScript and CSS files.
 
-Please, feel free to modify and extend the original source code, as well to add Currency Rates and Language Translations.
+Please, feel free to modify and extend the original source code, as well to edit/add Currency Rates and Language Translations.
 
 Note: This Currency Converter Module was built from a technical test question. 	
