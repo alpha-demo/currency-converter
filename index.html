@@ -20,8 +20,11 @@
 
 <!-- FACTSET Currency Converter Javascript + ini - -->
 <script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/jFactSetRatesInput.js"></script>
+<script src="js/jFactSetLanguages.js"></script>
 <script src="js/jFactSetCurrencyConverter.min.js"></script>
 <script type="text/javascript">
+
     /*
 
      Just choose your language and favorite style:
@@ -43,6 +46,17 @@
      let MyCurrencyConverter = new FactSetCurrencyConverter(); // By default parameters
      let MyCurrencyConverter = new FactSetCurrencyConverter(1); // In English "en-US"
      let MyCurrencyConverter = new FactSetCurrencyConverter(0, 2); // In Spanish "es-ES" and Black & Red Style
+
+     To provide customized Rates, add a third parameter, for example [this parameter is optional too]:
+     let MyCurrencyConverter = new FactSetCurrencyConverter(0, 2, JsonObjectWithRates);
+
+     To provide customized Language Translations , add a fourth parameter, for example [this parameter is optional too]:
+     let MyCurrencyConverter = new FactSetCurrencyConverter(
+     0,
+     2,
+     JsonObjectWithRates,
+     JsonObjectWithLanguageTranslations
+     );
 
      */
 

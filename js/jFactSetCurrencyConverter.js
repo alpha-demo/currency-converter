@@ -19,8 +19,34 @@ class FactSetCurrencyConverter {
      *
      * @param prmLanguage integer chosen Language. Optional parameter.
      * @param prmStyle integer chosen Style. Optional parameter.
+     * @param prmJsnRatesInput string customized rates provided as stringified json object.
+     * @param prmJsnLanguageTranslationFile string customized language translations provided as stringified json object.
      */
-    constructor(prmLanguage = 0, prmStyle = 3) {
+    constructor(
+        prmLanguage                   = 0,
+        prmStyle                      = 3,
+        prmJsnRatesInput              = "",
+        prmJsnLanguageTranslationFile = "") {
+
+        // >> Setting the jSon Input properties
+
+        // jSon of Rates
+        if ("" !== prmJsnRatesInput) {
+            try {
+                jsnFactSetRatesInput = JSON.parse(prmJsnRatesInput);
+            } catch (e) {
+                alert('The provided Rates are not valid.');
+            }
+        }
+
+        // jSon of Language Translations
+        if ("" !== prmJsnLanguageTranslationFile) {
+            try {
+                jsnFactSetLanguages = JSON.parse(prmJsnLanguageTranslationFile);
+            } catch (e) {
+                alert('The provided Language Translations are not valid.');
+            }
+        }
 
         // >> Setting public Properties
 

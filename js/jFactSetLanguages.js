@@ -12,8 +12,7 @@
  *
  */
 
-
-var jsnFactSetLanguages =
+let jsnFactSetLanguages =
         [
             {
                 "language":       "es-ES",

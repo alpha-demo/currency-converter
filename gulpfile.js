@@ -25,7 +25,7 @@ gulp.task('tskFSStyle', function () {
 });
 
 // Task Js
-let strFSJsSrc  = (['js/jFactSetLanguages.js', 'js/jFactSetRatesInput.js', 'js/jFactSetCurrencyConverter.js']);
+let strFSJsSrc  = ('js/jFactSetCurrencyConverter.js');
 let strFSJsDest = 'js/';
 gulp.task('tskFSJs', function () {
     return gulp.src(strFSJsSrc)
@@ -44,7 +44,8 @@ gulp.task('browser-sync', function () {
         }
     });
 
-    gulp.watch(['js/jFactSetRatesInput.js', 'js/jFactSetCurrencyConverter.js', 'css/styleFSCurrencyConverter.css'],
+    gulp.watch(['js/jFactSetRatesInput.js', 'js/jFactSetCurrencyConverter.js', 'css/styleFSCurrencyConverter.css',
+                'index.html'],
         gulp.series(['tskFSStyle', 'tskFSJs', browserSync.reload]));
 
 });
